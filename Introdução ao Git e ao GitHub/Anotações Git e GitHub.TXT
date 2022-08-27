@@ -1,0 +1,51 @@
+Link para dowload do Git: https://git-scm.com/downloads
+O Git bash é um terminal extendido para utilizar o uso do Git.
+
+O Git é um SCV (Sistema de controle de versões) de código aberto que permite o controle da versão de arquivos de um projecto editado por diversas pessoas em simultâneo.
+( Git add e Git commit)
+	Objetos internos do Git: 
+		Blobs
+		Trees
+		Commits
+
+SSH Keys e Token
+
+	SSH keys consiste em um par de chaves uma pública que deve ser instalada no servidor remoto, e uma outra chave privada que fica salva no seu computador.
+	Autenticação por token
+
+##Comandos:
+
+#Configuração basica
+
+	Configurar o nome (Commits)
+git config --global user.name "dasdo"
+
+	
+	Configurar Email
+git config --global user.email exemplo@gmail.com
+
+
+# Iniciando repositorio
+
+Iniciamos o Git na pasta onde está o projeto
+	
+	git init
+
+Clonamos o repositório do github
+ 	
+	git clone <url>
+
+Adcionamos todos os arquivos no Commit
+
+	git add .
+
+Primeito Commit
+
+	git commit -m "Texto que identifique a causa de fazer o commit"
+
+Publicar no repositório
+
+	git push origin master
+
+Link útil 
+https://gist.github.com/dasdo/9ff71c5c0efa037441b6
